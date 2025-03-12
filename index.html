@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoZ</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/componentes.css">
+</head>
+
+<body>
+    <!--MENÚ DE NAVEGACIÓN-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html" tabindex="0">EchoZ</a>
+            </div>
+            <div class="menu-toggle" id="burguer_menu">         
+                <input id="checkbox" type="checkbox" role="button" aria-label="Menú de navegación">
+                <label class="toggle" for="checkbox">
+                    <div id="bar1" class="bars"></div>
+                    <div id="bar2" class="bars"></div>
+                    <div id="bar3" class="bars"></div>
+                </label>
+            </div>
+        </nav>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="index.html" tabindex="-1"> <span>01</span> Inicio</a></li>
+                <li><a href="./pages/galeria.html" tabindex="-1"> <span>02</span> Galería de artistas</a></li>
+                <li><a href="./pages/nosotros.html" tabindex="-1"> <span>03</span> Sobre nosotros</a></li>
+                <li><a href="./pages/blog.html" tabindex="-1"> <span>04</span> Blog</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--SECCIÓN DEL HERO-->
+    <section id="hero">
+        <div class="hero_info">
+            <div class="corte_superior"></div>
+            <div class="corte_inferior">
+                <p>Desliza hacia abajo</p>
+            </div>
+            <h1>OYE, <br>SIENTE, <br>DESCUBRE</h1>
+            <h5>Tu próxima obsesión musical está aquí.</h5>
+            <a href="./pages/nosotros.html" class="enlace_pagina" tabindex="0">
+                Conocer más
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!--SECCIÓN DE ARTISTAS DESTACADOS-->
+    <section id="artista">
+        <div class="contenedor">
+            <div class="artistas_encabezado">
+                <h3>Artistas destacados</h3>
+                <p><strong>Descubre el futuro de la música.</strong> Voces frescas, talento puro y una energía
+                    inigualable. Estos artistas
+                    emergentes están marcando el comienzo de una nueva era.<br> Su creatividad y pasión los convierten
+                    en la
+                    próxima gran revelación. No te quedes atrás, ¡conócelos antes de que conquisten el mundo!
+                </p>
+            </div>
+            <div class="artistas_cards">
+                <div class="card_wrapper">
+                    <div class="enlace_icono_circulo">
+                        <a href="pages/galeria.html" class="flecha_recuadro" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="artista_card_imagen">
+                        <img src="./assets/images/artistas/ani1.PNG" alt="imagen de ANI">
+                    </div>
+                    <div class="artista_card_info">
+                        <h4 class="artista_nombre">ANI</h4>
+                        <p class="artista_genero">Pop, Urbano, Rock</p>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="enlace_icono_circulo">
+                        <a href="pages/galeria.html" class="flecha_recuadro" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="artista_card_imagen">
+                        <img src="./assets/images/artistas/KUP.PNG" alt="imagen de KUP">
+                    </div>
+                    <div class="artista_card_info">
+                        <h4 class="artista_nombre">K.U.P</h4>
+                        <p class="artista_genero">Rap, Freestyle, Urbano</p>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="enlace_icono_circulo">
+                        <a href="pages/galeria.html" class="flecha_recuadro" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="artista_card_imagen">
+                        <img src="./assets/images/artistas/canela2.PNG" alt="imagen de CANELA">
+                    </div>
+                    <div class="artista_card_info">
+                        <h4 class="artista_nombre">CANELA</h4>
+                        <p class="artista_genero">Blues, Pop, Urbano</p>
+                    </div>
+                </div>
+                <div class="card_wrapper">
+                    <div class="enlace_icono_circulo">
+                        <a href="pages/galeria.html" class="flecha_recuadro" tabindex="0">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="artista_card_imagen">
+                        <img src="./assets/images/artistas/abi1.PNG" alt="imagen de ABI">
+                    </div>
+                    <div class="artista_card_info">
+                        <h4 class="artista_nombre">ABI</h4>
+                        <p class="artista_genero">Urbano, Trap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCIÓN DE FRASE LLAMATIVA-->
+    <section id="frase_musica">
+        <div class="contenedor">
+            <h1>Las nuevas voces</h1>
+            <h1>que marcarán el</h1>
+            <h1 id="quote_last_line">futuro de la música </h1>
+        </div>
+    </section>
+    <!--SECCIÓN DEL BLOG-->
+    <section id="blog">
+        <div class="contenedor">
+            <div class="blog_contenido">
+                <div class="contenido_izquiera">
+                    <div class="noticia">
+                        <div class="enlace_icono_circulo">
+                            <a href="https://www.lavanguardia.com/andro4all/windows/windows-11-prepara-una-gran-actualizacion-para-crear-musica-digital"
+                                class="flecha_recuadro" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="noticia_encabezado">
+                            <h6>Windows 11 prepara una gran actualización para crear música digital</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenido_centro">
+                    <div class="blog_encabezado">
+                        <h4>Descubre las noticias del mundo musical</h4>
+                    </div>
+                    <div class="blog_noticias">
+                        <div class="noticia">
+                            <div class="enlace_icono_circulo">
+                                <a href="https://www.elespectador.com/entretenimiento/musica/premios-grammy-2025-en-vivo-conozca-la-lista-de-ganadores/"
+                                    class="flecha_recuadro" tabindex="0">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                        <path
+                                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="noticia_encabezado">
+                                <h6>Premios 2025: Shakira, Kendrick Lamar, Beyonce y más ganadores</h6>
+                            </div>
+                        </div>
+                        <div class="noticia">
+                            <div class="enlace_icono_circulo">
+                                <a href="https://www.elespectador.com/entretenimiento/gente/medellin-music-lab-j-balvin-inauguro-un-estudio-de-grabacion-publico-noticias-hoy/"
+                                    class="flecha_recuadro" tabindex="0">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                        <path
+                                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="noticia_encabezado">
+                                <h6>Medellín Music Lab: J Balvin inauguró un estudio de grabación público</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenido_derecha">
+                    <div class="noticia">
+                        <div class="enlace_icono_circulo">
+                            <a href="https://www.elespectador.com/cromos/core-medellin-2025-la-ciudad-se-prepara-para-un-fin-de-semana-de-musica-y-magia/"
+                                class="flecha_recuadro" tabindex="0">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="noticia_encabezado">
+                            <h6>CORE Medellín 2025: <br> La ciudad se prepara para un fin de semana de música y magia
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="contenido_footer">
+            <a href="index.html" tabindex="0">EchoZ</a>
+            <p>all rights reserved © 2025</p>
+        </div>
+    </footer>
+
+</body>
+<script src="./js/ui.js"></script>
+
+</html>

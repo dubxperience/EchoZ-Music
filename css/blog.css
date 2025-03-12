@@ -1,0 +1,116 @@
+#seccion_blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 clamp(48px, 6vw, 104px);
+    background: var(--primary-color);
+}
+#superior,
+#centro,
+#inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.noticia_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+    padding: 0 32px;
+    border-radius: 16px;
+    background: url('../assets/images/blog/1-bogota\ convocatoria.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.noticia_principal h4,
+.noticia_principal h6{
+    color: var(--text-color);
+}
+.noticia_principal h6{
+    width: 60%;
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    background: var(--glass-color);
+    backdrop-filter: blur(10px);
+}
+.contenido_izquiera .noticia{
+    background-image: url('../assets/images/blog/2-windows.jpg');
+    background-size: cover;
+}
+.blog_noticias .noticia:nth-child(1){
+    background-image: url('../assets/images/blog/3-\ the-waeve-.jpg');
+    background-size: cover;
+}
+.blog_noticias .noticia:nth-child(2){
+    background-image: url('../assets/images/blog/4-core\ med.jpg');
+    background-size: cover;
+}
+.contenido_derecha .noticia{
+    background-image: url('../assets/images/blog/5-grammy.jpg');
+    background-size: cover;
+}
+.contenido_inferior{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 24px;
+    width: 100%;
+    height: 90%;
+}
+.noticia_izquierda{
+    position: relative;
+    border-radius: 16px;
+    background: url('../assets/images/blog/6-tonyk.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.noticia_derecha{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+}
+.bloque_superior{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 24px;
+}
+.bloque_inferior{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 24px;
+}
+.bloque_superior .noticia:nth-child(1){
+    background-image: url('../assets/images/blog/7-spotify.png');
+    background-position: bottom;
+    background-size: cover;
+}
+.bloque_superior .noticia:nth-child(2){
+    background-image: url('../assets/images/blog/8-Mezclar-culturas-.jpg');
+    background-size: cover;
+}
+.bloque_inferior .noticia:nth-child(1){
+    background-image: url('../assets/images/blog/9-amaia-montero.jpg');
+    background-size: cover;
+}
+.bloque_inferior .noticia:nth-child(2){
+    background-image: url('../assets/images/blog/10-med\ music\ lab.jpg');
+    background-size: cover;
+}
+@media screen and (max-width: 810px){
+    #superior h6{
+        width: 100%;
+    }
+    #centro, #inferior{
+        height: auto;
+        padding-top: 24px;
+    }
+    .contenido_inferior,
+    .bloque_superior,
+    .bloque_inferior{
+        grid-template-columns: 1fr;
+    }
+}
